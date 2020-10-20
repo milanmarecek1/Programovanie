@@ -1,2 +1,6 @@
-module $MODULE_NAME$ {
+module IT{
+    requires javafx.fxml;
+    requires javafx.controls;
+    opens sample;
+    opens textEditor;
 }
